@@ -18,7 +18,12 @@ export default defineConfig({
     plugins: [tailwindcss()],
     resolve: {
       alias: {
-        '~': path.resolve('./src'), // <- alias para src/
+        '~': path.resolve('./src'),
+      },
+    },
+    build: {
+      rollupOptions: {
+        external: ['groq-sdk'],
       },
     },
   },

@@ -16,6 +16,7 @@
     "@tailwindcss/vite": "^4.0.3",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
+    "@vercel/analytics": "^1.5.0",
     "astro": "^5.2.3",
     "groq-sdk": "^0.32.0",
     "openai": "^4.82.0",

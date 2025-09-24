@@ -541,4 +541,4 @@ export const userConfig = {
 
     ]
 
-} as const; 
+}

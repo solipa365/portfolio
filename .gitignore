@@ -28,8 +28,3 @@ pnpm-debug.log*
 
 # Pasta de Configuração Vercel
 .vercel/
-
-
-.vercel
-
-src/config/userConfig.ts

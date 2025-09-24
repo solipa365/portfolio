@@ -1,0 +1,44 @@
+---
+export const prerender = false;
+import { getImage } from 'astro:assets';
+import AppLayout from '../layouts/AppLayout';
+import macBackground1 from '../assets/images/mac-background1.png';
+import macBackground2 from '../assets/images/mac-background2.png';
+import macBackground3 from '../assets/images/mac-background3.png';
+import macBackground4 from '../assets/images/mac-background4.png';
+import macBackground5 from '../assets/images/mac-background5.png';
+import macBackground6 from '../assets/images/mac-background6.png';
+import macBackground7 from '../assets/images/mac-background7.png';
+import macBackground8 from '../assets/images/mac-background8.png';
+import macBackground9 from '../assets/images/mac-background9.png';
+import macBackground10 from '../assets/images/mac-background10.png';
+import macBackground11 from '../assets/images/mac-background11.png';
+import macBackground12 from '../assets/images/mac-background12.png';
+import macBackground13 from '../assets/images/mac-background13.png';
+import macBackground14 from '../assets/images/mac-background14.png';
+
+const backgrounds = [macBackground1, macBackground2, macBackground3, macBackground4, macBackground5, macBackground6, macBackground7, macBackground8, macBackground9, macBackground10, macBackground11, macBackground12, macBackground13, macBackground14,];
+
+function getRandomBackground() {
+  return `bg-${Math.floor(Math.random() * backgrounds.length) + 1}`;
+}
+
+const optimizedBackgrounds = await Promise.all(
+  backgrounds.map((bg) =>
+    getImage({
+      src: bg,
+      width: 3500,
+    })
+  )
+);
+
+const backgroundMap = Object.fromEntries(
+  optimizedBackgrounds.map((bg, index) => [`bg-${index + 1}`, bg.src])
+);
+---
+
+<AppLayout
+  client:load
+  initialBg={getRandomBackground()}
+  backgroundMap={backgroundMap}
+/>

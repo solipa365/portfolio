@@ -1,0 +1,101 @@
+---
+import '../../styles/global.css';
+import { AstroSeo } from '@astrolib/seo';
+import { getImage } from 'astro:assets';
+import macBackground1 from '../../assets/images/mac-background1.png';
+import macBackground2 from '../../assets/images/mac-background2.png';
+import macBackground3 from '../../assets/images/mac-background3.png';
+import macBackground4 from '../../assets/images/mac-background4.png';
+import macBackground5 from '../../assets/images/mac-background5.png';
+import macBackground6 from '../../assets/images/mac-background6.png';
+import macBackground7 from '../../assets/images/mac-background7.png';
+import macBackground8 from '../../assets/images/mac-background8.png';
+import macBackground9 from '../../assets/images/mac-background9.png';
+import macBackground10 from '../../assets/images/mac-background10.png';
+import macBackground11 from '../../assets/images/mac-background11.png';
+import macBackground12 from '../../assets/images/mac-background12.png';
+import macBackground13 from '../../assets/images/mac-background13.png';
+import macBackground14 from '../../assets/images/mac-background14.png';
+import { userConfig } from '../../config/userConfig';
+
+const backgrounds = await Promise.all([
+  getImage({ src: macBackground1, width: 3500 }),
+  getImage({ src: macBackground2, width: 3500 }),
+  getImage({ src: macBackground3, width: 3500 }),
+  getImage({ src: macBackground4, width: 3500 }),
+  getImage({ src: macBackground5, width: 3500 }),
+  getImage({ src: macBackground6, width: 3500 }),
+  getImage({ src: macBackground7, width: 3500 }),
+  getImage({ src: macBackground8, width: 3500 }),
+  getImage({ src: macBackground9, width: 3500 }),
+  getImage({ src: macBackground10, width: 3500 }),
+  getImage({ src: macBackground11, width: 3500 }),
+  getImage({ src: macBackground12, width: 3500 }),
+  getImage({ src: macBackground13, width: 3500 }),
+  getImage({ src: macBackground14, width: 3500 }),
+
+]);
+---
+
+<!-- Meta Tags Principais -->
+<meta charset='UTF-8' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<meta
+  name='viewport'
+  content='width=device-width, initial-scale=1, maximum-scale=1'
+/>
+<meta name='author' content={userConfig.name} />
+
+<!-- Configuração de SEO -->
+<AstroSeo
+  title={Astro.props.title || userConfig.seo.title}
+  description={Astro.props.description || userConfig.seo.description}
+  canonical={Astro.props.canonical || userConfig.website}
+  openGraph={{
+    url: Astro.props.openGraph?.url || userConfig.website,
+    title: Astro.props.openGraph?.title || userConfig.seo.title,
+    description: Astro.props.openGraph?.description || userConfig.seo.description,
+    images: [
+      {
+        url: '',
+        // Imagem og Aqui
+      },
+    ],
+    site_name: Astro.props.openGraph?.site_name || userConfig.name,
+  }}
+/>
+
+<!-- Adicione Seus Arquivos de Favicon em public/images/ -->
+<link rel='apple-touch-icon' sizes='180x180' href='https://avatars.githubusercontent.com/u/176431339?v=4' />
+<link
+  rel='icon'
+  type='image/png'
+  sizes='32x32'
+  href='https://avatars.githubusercontent.com/u/176431339?v=4'
+/>
+<link
+  rel='icon'
+  type='image/png'
+  sizes='16x16'
+  href='https://avatars.githubusercontent.com/u/176431339?v=4'
+/>
+
+<!-- Cores do Tema para Navegadores -->
+<meta name='msapplication-TileColor' content={userConfig.theme.secondaryColor} />
+<meta name='theme-color' content={userConfig.theme.secondaryColor} />
+
+<!-- Mapa do Site Gerado Automaticamente -->
+<link rel='sitemap' href='/sitemap-index.xml' />
+
+<!-- Pré-carregar Imagens de Fundo para Desempenho -->
+{
+  backgrounds.map((bg) => (
+    <link
+      rel='preload'
+      href={bg.src}
+      as='image'
+      type='image/webp'
+      fetchpriority='high'
+    />
+  ))
+}

@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LandingPage from '../components/LandingPage.astro';
+import { userConfig } from '../config/userConfig';
+---
+
+<Layout
+  title={userConfig.seo.title}
+  description={userConfig.seo.description}
+  canonical={userConfig.website}
+  openGraph={{
+    url: userConfig.website,
+    title: userConfig.seo.title,
+    description: userConfig.seo.description,
+    site_name: userConfig.name,
+  }}
+>
+  <LandingPage />
+</Layout>

@@ -1,0 +1,35 @@
+# Saída de Construção
+dist/
+
+# Tipos Gerados
+.astro/
+
+# Dependências
+node_modules/
+
+# Registros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variáveis ​​de Ambiente
+.env
+.env.production
+
+# Arquivos Específicos do MacOS
+.DS_Store
+
+# Pasta de Configuração do Jetbrains
+.idea/
+
+# Pasta de Configuração do VSCode
+.vscode/
+
+# Pasta de Configuração Vercel
+.vercel/
+
+
+.vercel
+
+src/config/userConfig.ts

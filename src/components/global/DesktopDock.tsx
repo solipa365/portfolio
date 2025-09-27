@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { BsGithub, BsSpotify, BsFilePdf, BsStickyFill, BsCalendar, BsFillTrash2Fill, BsFillFolderFill, } from 'react-icons/bs';
 import { RiTerminalFill, } from 'react-icons/ri';
 import { IoIosCall, IoIosMail } from 'react-icons/io';
+import { VscVscodeInsiders } from "react-icons/vsc";
 import { FaLink, FaLinkedin, FaGithub, FaFacebook, FaFacebookMessenger, FaInstagram, FaWhatsapp, FaTelegram, FaDiscord, FaYoutube, FaTwitch, FaTiktok, FaTwitter, FaReddit, FaSnapchat, FaPinterest, } from 'react-icons/fa';
 import ResumeViewer from './ResumeViewer';
 import SpotifyPlayer from './SpotifyPlayer';
@@ -53,8 +54,8 @@ const DesktopDock = ({ onTerminalClick, onDeleteClick, onFolderClick, onNotesCli
     setShowSpotify(false);
   };
 
-  const handleEmailClick = () => {
-    window.open(`mailto:${userConfig.contact.email}`, '_blank');
+  const handleVSCodeClick = () => {
+    window.location.href = 'vscode:/';
   };
 
   useEffect(() => {
@@ -250,7 +251,7 @@ const DesktopDock = ({ onTerminalClick, onDeleteClick, onFolderClick, onNotesCli
               <div className={`w-12 h-12 bg-gradient-to-t from-black to-black/60 rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 ease-out hover:scale-110 active:scale-95 ${activeApps.github ? 'ring-2 ring-white/50' : ''}`}>
                 <BsGithub size={35} className='text-gray-100' />
               </div>
-              {hoveredIcon === 'github' && <Tooltip text='Meus Projetos' />}
+              {hoveredIcon === 'github' && <Tooltip text='GitHub' />}
             </button>
 
             {/* Notes */}
@@ -307,15 +308,15 @@ const DesktopDock = ({ onTerminalClick, onDeleteClick, onFolderClick, onNotesCli
 
             {/* Email */}
             <button
-              onClick={handleEmailClick}
-              onMouseEnter={() => setHoveredIcon('email')}
+              onClick={handleVSCodeClick}
+              onMouseEnter={() => setHoveredIcon('VSCode')}
               onMouseLeave={() => setHoveredIcon(null)}
               className="relative"
             >
               <div className='w-12 h-12 bg-gradient-to-t from-blue-600 to-blue-400 rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 ease-out hover:scale-110 active:scale-95'>
-                <IoIosMail size={40} className='text-white' />
+                <VscVscodeInsiders size={40} className='text-white' />
               </div>
-              {hoveredIcon === 'email' && <Tooltip text='E-mail' />}
+              {hoveredIcon === 'VSCode' && <Tooltip text='Visual Studio Code' />}
             </button>
 
             {/* Links */}

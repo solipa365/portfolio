@@ -18,7 +18,6 @@ import {
   IoCall,
   IoHelpCircle,
 } from 'react-icons/io5';
-import { VscVscode } from 'react-icons/vsc';
 import { userConfig } from '../../config/userConfig';
 import HelpModal from './HelpModal';
 
@@ -88,10 +87,6 @@ export default function MacToolbar({
     hour = hour ? hour : 12;
 
     return `${hour}:${minute}`;
-  };
-
-  const handleVSCodeClick = () => {
-    window.location.href = 'vscode:/';
   };
 
   const handleMenuClick = (menu: string) => {
@@ -232,12 +227,6 @@ export default function MacToolbar({
           ))}
         </div>
         <div className='flex items-center space-x-4'>
-          <VscVscode
-            size={16}
-            className='cursor-pointer hover:opacity-80 transition-opacity'
-            onClick={handleVSCodeClick}
-            title='Abrir o Visual Studio Code (VSCode)'
-          />
           <IoVideocam size={16} />
           <IoBatteryFull  size={16} />
           <MdWifi size={16} />

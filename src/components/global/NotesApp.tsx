@@ -185,11 +185,24 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                     const itemId = `courses-${index}`;
                     return (
                         <div key={itemId} className="bg-gray-800/50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-                            <h3 className="text-xl font-semibold text-gray-200 mb-2">{item.title}</h3>
-                            <div className="text-gray-300 mb-2">{item.institution}, {item.location}</div>
-                            <div className="text-gray-400 mb-3">{item.year}</div>
-                            <p className="text-gray-300 mb-4">{item.description}</p>
                             {item.images && item.images.length > 0 && renderImageCarousel(itemId, item.images)}
+                            <h3 className="text-xl font-semibold text-gray-200 mb-2">{item.title}</h3>
+                            <div className="text-gray-400 mb-3">Emitido por: {item.institution}</div>
+                            <div className="text-gray-400 mb-3">Emitido para: {item.teacher}</div>
+                            <div className="text-gray-400 mb-3">Tipo de conteúdo: {item.contenttype}</div>
+                            <div className="text-gray-400 mb-3">Data de emissão: {item.dateofissue}</div>
+                            <div className="text-gray-400 mb-3">Carga horária: {item.workload}</div>
+                            <div className="text-gray-400 mb-3 break-all">
+                                Código de validação: {item.validationcode}
+                            </div>
+                            <a
+                                href={item.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-400 hover:underline mb-4 block"
+                                >
+                                Exibir Credencial
+                            </a>
                         </div>
                     );
                 })}

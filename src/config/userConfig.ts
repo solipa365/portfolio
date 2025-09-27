@@ -530,7 +530,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/c07bc26e-41a2-497a-be63-7c371f5826a9/",
             images: [
                 {
-                    url: "public/Rocketseat-MicroCertificados-1.png",
+                    url: "/Rocketseat-MicroCertificados-1.png",
                 }
             ]
         },
@@ -545,7 +545,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/9ce9aafd-f510-4457-a5df-bd39b6382cf8/",
             images: [
                 {
-                    url: "public/Rocketseat-MicroCertificados-2.png",
+                    url: "/Rocketseat-MicroCertificados-2.png",
                 }
             ]
         },
@@ -560,7 +560,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/a9a42d74-189e-4654-919a-b990d2f18b14/",
             images: [
                 {
-                    url: "public/Rocketseat-MicroCertificados-3.png",
+                    url: "/Rocketseat-MicroCertificados-3.png",
                 }
             ]
         },
@@ -575,7 +575,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/3cb685ba-4b02-4912-a4c5-60c6886728c9/",
             images: [
                 {
-                    url: "public/Rocketseat-MicroCertificados-4.png",
+                    url: "/Rocketseat-MicroCertificados-4.png",
                 }
             ]
         },
@@ -590,7 +590,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/10096769-4a0a-4323-b9a9-a28d77ee4287/",
             images: [
                 {
-                    url: "public/Rocketseat-MicroCertificados-5.png",
+                    url: "/Rocketseat-MicroCertificados-5.png",
                 }
             ]
         },
@@ -605,7 +605,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/58006d68-f7a5-41f3-a1ac-8604858ec2b8/",
             images: [
                 {
-                    url: "public/Rocketseat-MicroCertificados-6.png",
+                    url: "/Rocketseat-MicroCertificados-6.png",
                 }
             ]
         },
@@ -620,7 +620,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/c3665b0b-7e56-4d08-b3ec-02bb87fc776f/",
             images: [
                 {
-                    url: "public/Rocketseat-MicroCertificados-7.png",
+                    url: "/Rocketseat-MicroCertificados-7.png",
                 }
             ]
         },
@@ -635,7 +635,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/d7071fbd-138a-4b8e-a79c-d640e3f75a95/",
             images: [
                 {
-                    url: "public/Rocketseat-Cursos-1.png",
+                    url: "/Rocketseat-Cursos-1.png",
                 }
             ]
         },
@@ -650,7 +650,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/02292062-1360-4d6d-ac12-5ae051685595/",
             images: [
                 {
-                    url: "public/Rocketseat-Cursos-2.png",
+                    url: "/Rocketseat-Cursos-2.png",
                 }
             ]
         },
@@ -665,7 +665,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/58d1d305-b8c1-4872-86d3-2aaed85e5110/",
             images: [
                 {
-                    url: "public/Rocketseat-Cursos-3.png",
+                    url: "/Rocketseat-Cursos-3.png",
                 }
             ]
         },
@@ -680,7 +680,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/86ff085e-8d5b-4de7-a8ba-clfa19a76bce/",
             images: [
                 {
-                    url: "public/Rocketseat-Cursos-4.png",
+                    url: "/Rocketseat-Cursos-4.png",
                 }
             ]
         },
@@ -695,7 +695,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/2f980c3e-6b7d-47c6-9f11-5fa9826aeb24/",
             images: [
                 {
-                    url: "public/Rocketseat-Cursos-5.png",
+                    url: "/Rocketseat-Cursos-5.png",
                 }
             ]
         },
@@ -710,7 +710,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/5baa4698-75eb-4d8d-b051-5ec012ea5ac6/",
             images: [
                 {
-                    url: "public/Rocketseat-Cursos-6.png",
+                    url: "/Rocketseat-Cursos-6.png",
                 }
             ]
         },
@@ -725,7 +725,7 @@ export const userConfig = {
             url: "https://app.rocketseat.com.br/certificates/327834c7-48f7-4f74-8cb5-b2422a75df37/",
             images: [
                 {
-                    url: "public/Rocketseat-Cursos-7.png",
+                    url: "/Rocketseat-Cursos-7.png",
                 }
             ]
         },
@@ -740,7 +740,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/44AHCPZP.pdf",
             images: [
                 {
-                    url: "public/DIO-1.png",
+                    url: "/DIO-1.png",
                 }
             ]
         },
@@ -755,7 +755,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/EKZ80R9V.pdf",
             images: [
                 {
-                    url: "public/DIO-2.png",
+                    url: "/DIO-2.png",
                 }
             ]
         },
@@ -770,7 +770,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/CDCRJLD3.pdf",
             images: [
                 {
-                    url: "public/DIO-3.png",
+                    url: "/DIO-3.png",
                 }
             ]
         },
@@ -785,7 +785,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/GVAI3YNZ.pdf",
             images: [
                 {
-                    url: "public/DIO-4.png",
+                    url: "/DIO-4.png",
                 }
             ]
         },
@@ -800,7 +800,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/JLLMECAN.pdf",
             images: [
                 {
-                    url: "public/DIO-5.png",
+                    url: "/DIO-5.png",
                 }
             ]
         },
@@ -815,7 +815,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/XSTWZ5EK.pdf",
             images: [
                 {
-                    url: "public/DIO-6.png",
+                    url: "/DIO-6.png",
                 }
             ]
         },
@@ -830,7 +830,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/D4E704XR.pdf",
             images: [
                 {
-                    url: "public/DIO-7.png",
+                    url: "/DIO-7.png",
                 }
             ]
         },
@@ -845,7 +845,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/ZSXZDXH3.pdf",
             images: [
                 {
-                    url: "public/DIO-8.png",
+                    url: "/DIO-8.png",
                 }
             ]
         },
@@ -860,7 +860,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/OMYYUZJE.pdf",
             images: [
                 {
-                    url: "public/DIO-9.png",
+                    url: "/DIO-9.png",
                 }
             ]
         },
@@ -875,7 +875,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/MQZQRSSX.pdf",
             images: [
                 {
-                    url: "public/DIO-10.png",
+                    url: "/DIO-10.png",
                 }
             ]
         },
@@ -890,7 +890,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/490UWEGF.pdf",
             images: [
                 {
-                    url: "public/DIO-11.png",
+                    url: "/DIO-11.png",
                 }
             ]
         },
@@ -905,7 +905,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/JHNHNBEX.pdf",
             images: [
                 {
-                    url: "public/DIO-12.png",
+                    url: "/DIO-12.png",
                 }
             ]
         },
@@ -920,7 +920,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/XZAVPDDX.pdf",
             images: [
                 {
-                    url: "public/DIO-13.png",
+                    url: "/DIO-13.png",
                 }
             ]
         },
@@ -935,7 +935,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/HDFKCUGA.pdf",
             images: [
                 {
-                    url: "public/DIO-14.png",
+                    url: "/DIO-14.png",
                 }
             ]
         },
@@ -950,7 +950,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/PWX7EE94.pdf",
             images: [
                 {
-                    url: "public/DIO-15.png",
+                    url: "/DIO-15.png",
                 }
             ]
         },
@@ -965,7 +965,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/GOXGCWDK.pdf",
             images: [
                 {
-                    url: "public/DIO-16.png",
+                    url: "/DIO-16.png",
                 }
             ]
         },
@@ -980,7 +980,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/F2NGMPW4.pdf",
             images: [
                 {
-                    url: "public/DIO-17.png",
+                    url: "/DIO-17.png",
                 }
             ]
         },
@@ -995,7 +995,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/VCRSPCTA.pdf",
             images: [
                 {
-                    url: "public/DIO-18.png",
+                    url: "/DIO-18.png",
                 }
             ]
         },
@@ -1010,7 +1010,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/NNDIBPZS.pdf",
             images: [
                 {
-                    url: "public/DIO-19.png",
+                    url: "/DIO-19.png",
                 }
             ]
         },
@@ -1025,7 +1025,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/S1KTX73U.pdf",
             images: [
                 {
-                    url: "public/DIO-20.png",
+                    url: "/DIO-20.png",
                 }
             ]
         },
@@ -1040,7 +1040,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/SRFDDNOX.pdf",
             images: [
                 {
-                    url: "public/DIO-21.png",
+                    url: "/DIO-21.png",
                 }
             ]
         },
@@ -1055,7 +1055,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/B10NSQW8.pdf",
             images: [
                 {
-                    url: "public/DIO-22.png",
+                    url: "/DIO-22.png",
                 }
             ]
         },
@@ -1070,7 +1070,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/KK4NYO43.pdf",
             images: [
                 {
-                    url: "public/DIO-23.png",
+                    url: "/DIO-23.png",
                 }
             ]
         },
@@ -1085,7 +1085,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/JYE8HIZD.pdf",
             images: [
                 {
-                    url: "public/DIO-24.png",
+                    url: "/DIO-24.png",
                 }
             ]
         },
@@ -1100,7 +1100,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/U6ESGSMR.pdf",
             images: [
                 {
-                    url: "public/DIO-25.png",
+                    url: "/DIO-25.png",
                 }
             ]
         },
@@ -1115,7 +1115,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/FNNOYTAM.pdf",
             images: [
                 {
-                    url: "public/DIO-26.png",
+                    url: "/DIO-26.png",
                 }
             ]
         },
@@ -1130,7 +1130,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/YKY53HZS.pdf",
             images: [
                 {
-                    url: "public/DIO-27.png",
+                    url: "/DIO-27.png",
                 }
             ]
         },
@@ -1145,7 +1145,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/G4BTJ3FP.pdf",
             images: [
                 {
-                    url: "public/DIO-28.png",
+                    url: "/DIO-28.png",
                 }
             ]
         },
@@ -1160,7 +1160,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/VZUC4AIJ.pdf",
             images: [
                 {
-                    url: "public/DIO-29.png",
+                    url: "/DIO-29.png",
                 }
             ]
         },
@@ -1175,7 +1175,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/EJDKWIPU.pdf",
             images: [
                 {
-                    url: "public/DIO-30.png",
+                    url: "/DIO-30.png",
                 }
             ]
         },
@@ -1190,7 +1190,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/WNVEFBZW.pdf",
             images: [
                 {
-                    url: "public/DIO-31.png",
+                    url: "/DIO-31.png",
                 }
             ]
         },
@@ -1205,7 +1205,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/NAFZMP3Y.pdf",
             images: [
                 {
-                    url: "public/DIO-32.png",
+                    url: "/DIO-32.png",
                 }
             ]
         },
@@ -1220,7 +1220,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/019QMVYU.pdf",
             images: [
                 {
-                    url: "public/DIO-33.png",
+                    url: "/DIO-33.png",
                 }
             ]
         },
@@ -1235,7 +1235,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/OFZMDGSW.pdf",
             images: [
                 {
-                    url: "public/DIO-34.png",
+                    url: "/DIO-34.png",
                 }
             ]
         },
@@ -1250,7 +1250,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/9MGD9TCM.pdf",
             images: [
                 {
-                    url: "public/DIO-35.png",
+                    url: "/DIO-35.png",
                 }
             ]
         },
@@ -1265,7 +1265,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/9Y3WRFD4.pdf",
             images: [
                 {
-                    url: "public/DIO-36.png",
+                    url: "/DIO-36.png",
                 }
             ]
         },
@@ -1280,7 +1280,7 @@ export const userConfig = {
             url: "https://hermes.dio.me/certificates/SO4WT5PW.pdf",
             images: [
                 {
-                    url: "public/DIO-37.png",
+                    url: "/DIO-37.png",
                 }
             ]
         },
@@ -1295,7 +1295,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/b6f5dbe220773d364d049030bd936432ec1bbf15c44b8ca8a7cab0dalc8239eb/",
             images: [
                 {
-                    url: "public/Linkedin-1.png",
+                    url: "/Linkedin-1.png",
                 }
             ]
         },
@@ -1310,7 +1310,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/1346592f6c8306d22574fff97aa4b206d9a993ada422c5e08eb37c7104ea264c/",
             images: [
                 {
-                    url: "public/Linkedin-2.png",
+                    url: "/Linkedin-2.png",
                 }
             ]
         },
@@ -1325,7 +1325,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/7d9f504bed2f096e6c853dbd288be3fe87b026abe41af81d8988d8da0fc52905/",
             images: [
                 {
-                    url: "public/Linkedin-3.png",
+                    url: "/Linkedin-3.png",
                 }
             ]
         },
@@ -1340,7 +1340,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/bde3b577c07bddbbfc935719e6cc6ca70be588e33ba034dde5lcdc9745f3d53b/",
             images: [
                 {
-                    url: "public/Linkedin-4.png",
+                    url: "/Linkedin-4.png",
                 }
             ]
         },
@@ -1355,7 +1355,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/55c234b0c50d8d56ccd35cbe80d2736de8a40b04dalefb06206b9f0bf4bdb936/",
             images: [
                 {
-                    url: "public/Linkedin-5.png",
+                    url: "/Linkedin-5.png",
                 }
             ]
         },
@@ -1370,7 +1370,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/5d8197e0ec33eadae6e1312679ae497f94789e40fa90d2e2170c07d104edd83f/",
             images: [
                 {
-                    url: "public/Linkedin-6.png",
+                    url: "/Linkedin-6.png",
                 }
             ]
         },
@@ -1385,7 +1385,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/e2e15650cdea4b347a3de35ab4c8ae8fc9af1d7bea791870037066276108b700/",
             images: [
                 {
-                    url: "public/Linkedin-7.png",
+                    url: "/Linkedin-7.png",
                 }
             ]
         },
@@ -1400,7 +1400,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/66c1d63b8800685elald0fec7a96dd4100e97de23555fcae7d2f4bllaa96088b/",
             images: [
                 {
-                    url: "public/Linkedin-8.png",
+                    url: "/Linkedin-8.png",
                 }
             ]
         },
@@ -1415,7 +1415,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/f12c3fd5e5b9b170db3569a6672e70409b3d7818c5f9f4336ecfleb7ea08a8ab/",
             images: [
                 {
-                    url: "public/Linkedin-9.png",
+                    url: "/Linkedin-9.png",
                 }
             ]
         },
@@ -1430,7 +1430,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/75c23f5fd3890300f90c9cde68533b8821172a9eadb085f7bc6c240f8f38d3ed/",
             images: [
                 {
-                    url: "public/Linkedin-10.png",
+                    url: "/Linkedin-10.png",
                 }
             ]
         },
@@ -1445,7 +1445,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/00254b5edf02e2858ca5f7f7c9d2f84d077d67ffle3af6cf64944eea67d3b738/",
             images: [
                 {
-                    url: "public/Linkedin-11.png",
+                    url: "/Linkedin-11.png",
                 }
             ]
         },
@@ -1460,7 +1460,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/96f37511c8b8cb176483e3f438ab788b6f6a39e96681c7bfa07b57e4f5e36561/",
             images: [
                 {
-                    url: "public/Linkedin-12.png",
+                    url: "/Linkedin-12.png",
                 }
             ]
         },
@@ -1475,7 +1475,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/7ca99c324d6a0f75729683d1667126c3cafe92621d170d3574f525861f6c9824/",
             images: [
                 {
-                    url: "public/Linkedin-13.png",
+                    url: "/Linkedin-13.png",
                 }
             ]
         },
@@ -1490,7 +1490,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/de7e53e2f94e00d1063300239014bf7219d73133d2a17a4a3e951f03c2211b72/",
             images: [
                 {
-                    url: "public/Linkedin-14.png",
+                    url: "/Linkedin-14.png",
                 }
             ]
         },
@@ -1505,7 +1505,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/1845ee8a7a2e935cf68d44c92ff1d586clco449e5951fle9fe3fd907d5c93bll/",
             images: [
                 {
-                    url: "public/Linkedin-15.png",
+                    url: "/Linkedin-15.png",
                 }
             ]
         },
@@ -1520,7 +1520,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/c5df17e6f8b522fc395190b9c6ee8f27f327533390ea7a7cf501a364a4b95050/",
             images: [
                 {
-                    url: "public/Linkedin-16.png",
+                    url: "/Linkedin-16.png",
                 }
             ]
         },
@@ -1535,7 +1535,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/learning/certificates/2d878c12883be17a6d18b5ab0773472225685ba02c201a572bfca5f1bb465a62/",
             images: [
                 {
-                    url: "public/Linkedin-17.png",
+                    url: "/Linkedin-17.png",
                 }
             ]
         },
@@ -1550,7 +1550,7 @@ export const userConfig = {
             url: "",
             images: [
                 {
-                    url: "public/WAICY-1.png",
+                    url: "/WAICY-1.png",
                 }
             ]
         },
@@ -1565,7 +1565,7 @@ export const userConfig = {
             url: "https://cdn-kultivi.s3.amazonaws.com/users/8597233f-4f7d-4cc8-9ef8-03da21c7f882/certificates/2289f57e-e1a7-41f7-9e80-0d64d469bc52.pdf",
             images: [
                 {
-                    url: "public/Kultivi-1.png",
+                    url: "/Kultivi-1.png",
                 }
             ]
         },
@@ -1580,7 +1580,7 @@ export const userConfig = {
             url: "https://cdn-kultivi.s3.amazonaws.com/users/8597233f-4f7d-4cc8-9ef8-03da21c7f882/certificates/7851a710-b796-4b82-a0cd-c292661201aa.pdf",
             images: [
                 {
-                    url: "public/Kultivi-2.png",
+                    url: "/Kultivi-2.png",
                 }
             ]
         },
@@ -1595,7 +1595,7 @@ export const userConfig = {
             url: "https://cdn-kultivi.s3.amazonaws.com/users/8597233f-4f7d-4cc8-9ef8-03da21c7f882/certificates/dcb9072e-e8f1-4cb2-91ac-07d16d7d1bef.pdf",
             images: [
                 {
-                    url: "public/Kultivi-3.png",
+                    url: "/Kultivi-3.png",
                 }
             ]
         },
@@ -1610,7 +1610,7 @@ export const userConfig = {
             url: "https://cdn-kultivi.s3.amazonaws.com/users/8597233f-4f7d-4cc8-9ef8-03da21c7f882/certificates/8092d69a-f0e8-4a1b-a0e9-67870bb6e8bd.pdf",
             images: [
                 {
-                    url: "public/Kultivi-4.png",
+                    url: "/Kultivi-4.png",
                 }
             ]
         },
@@ -1625,7 +1625,7 @@ export const userConfig = {
             url: "https://cdn-kultivi.s3.amazonaws.com/users/8597233f-4f7d-4cc8-9ef8-03da21c7f882/certificates/22000729-bdc8-4cfa-9ea1-72494b25ec1d.pdf",
             images: [
                 {
-                    url: "public/Kultivi-5.png",
+                    url: "/Kultivi-5.png",
                 }
             ]
         },
@@ -1640,7 +1640,7 @@ export const userConfig = {
             url: "https://cdn-kultivi.s3.amazonaws.com/users/8597233f-4f7d-4cc8-9ef8-03da21c7f882/certificates/fe29c26a-1684-4cb2-8d63-27485bbaaa33.pdf",
             images: [
                 {
-                    url: "public/Kultivi-6.png",
+                    url: "/Kultivi-6.png",
                 }
             ]
         },
@@ -1655,7 +1655,7 @@ export const userConfig = {
             url: "https://solyd.com.br/verificar/OKBA9Znbum/",
             images: [
                 {
-                    url: "public/Solyd-Offensive-Security-1.png",
+                    url: "/Solyd-Offensive-Security-1.png",
                 }
             ]
         },
@@ -1670,7 +1670,7 @@ export const userConfig = {
             url: "solyd.com.br/verificar/40PsACHNmb",
             images: [
                 {
-                    url: "public/Solyd-Offensive-Security-2.png",
+                    url: "/Solyd-Offensive-Security-2.png",
                 }
             ]
         },
@@ -1685,7 +1685,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/in/solipa365/details/certifications/1733818480837/single-media-viewer/?type=DOCUMENT&profileId=ACoAAD6lFgABu5ItCfoNaJfo1G_HiOBXVG7zQPs",
             images: [
                 {
-                    url: "public/Microelectronics-1.png",
+                    url: "/Microelectronics-1.png",
                 }
             ]
         },
@@ -1700,7 +1700,7 @@ export const userConfig = {
             url: "https://www.linkedin.com/in/solipa365/details/certifications/1735934166619/single-media-viewer/?type=DOCUMENT&profileId=ACoAAD6lFgABu5ItCfoNaJfo1G_HiOBXVG7zQPs",
             images: [
                 {
-                    url: "public/EPFundão-1.png",
+                    url: "/EPFundão-1.png",
                 }
             ]
         },
@@ -1715,7 +1715,7 @@ export const userConfig = {
             url: "https://www.credly.com/badges/38b55342-2f6e-49d0-b9e8-d2b736b569d9/",
             images: [
                 {
-                    url: "public/AWS-2.png",
+                    url: "/AWS-2.png",
                 }
             ]
         },
@@ -1730,7 +1730,7 @@ export const userConfig = {
             url: "https://www.credly.com/badges/297206ce-09b7-41c7-bd0a-131bb64eef01/",
             images: [
                 {
-                    url: "public/AWS-2.png",
+                    url: "/AWS-2.png",
                 }
             ]
         },
@@ -1745,7 +1745,7 @@ export const userConfig = {
             url: "https://www.credly.com/badges/ae258914-57a7-479b-a583-df1973eacb1f/",
             images: [
                 {
-                    url: "public/AWS-3.png",
+                    url: "/AWS-3.png",
                 }
             ]
         },
@@ -1760,7 +1760,7 @@ export const userConfig = {
             url: "https://www.credly.com/badges/1cf4ad34-60f4-4acd-a414-92c4c6169d26/",
             images: [
                 {
-                    url: "public/Certiprof-2.png",
+                    url: "/Certiprof-2.png",
                 }
             ]
         },
@@ -1775,7 +1775,7 @@ export const userConfig = {
             url: "https://www.credly.com/badges/83465e79-0d0d-451b-af34-5280c418a6cd/",
             images: [
                 {
-                    url: "public/Certiprof-1.png",
+                    url: "/Certiprof-1.png",
                 }
             ]
         },

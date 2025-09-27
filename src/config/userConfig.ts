@@ -126,6 +126,24 @@ export const userConfig = {
         "SQL Server"
     ],
 
+    causes: [
+        "Proteção animal",
+        "Direitos civis e ações sociais",
+        "Educação",
+        "Meio ambiente",
+        "Saúde",
+        "Direitos humanos",
+        "Alívio à pobreza",
+        "Serviço social",
+        "Ciência e tecnologia",
+        "Apoio a veteranos",
+        "Empoderamento econômico",
+        "Resposta a desastres e assistência humanitária",
+        "Crianças",
+        "Cultura e artes",
+        "Política",
+    ],
+
     extraCurricularRoles: [
         {
             role: "Google Developer Groups",

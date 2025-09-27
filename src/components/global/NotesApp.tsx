@@ -3,6 +3,7 @@ import {
     FaGraduationCap, FaBriefcase, FaChevronLeft, FaBookOpen,
     FaCode, FaUsers, FaPalette, FaTrophy
 } from 'react-icons/fa';
+import { FaRegUser } from "react-icons/fa6";
 import { userConfig } from '../../config/userConfig';
 import DraggableWindow from './DraggableWindow';
 
@@ -17,6 +18,7 @@ type Section =
     | 'experience'
     | 'courses'
     | 'skills'
+    | 'causes'
     | 'roles'
     | 'activities'
     | 'competitions';
@@ -67,6 +69,7 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
     const experience = userConfig.experience || [];
     const courses = userConfig.courses || [];
     const skills = userConfig.skills || [];
+    const causes = userConfig.causes || [];
     const roles = userConfig.extraCurricularRoles || [];
     const activities = userConfig.extraCurricularActivities || [];
     const competitions = userConfig.competitions || [];
@@ -219,6 +222,22 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                     {skills.map((skill, index) => (
                         <span key={index} className="px-3 py-1 bg-gray-700 rounded text-sm text-gray-300">
                             {skill}
+                        </span>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+
+    const renderCauses = () => (
+        <div className="space-y-6">
+            {renderBackButton()}
+            <h2 className="text-2xl font-bold text-gray-200 mb-6">Causas</h2>
+            <div className="bg-gray-800/50 p-6 rounded-xl shadow-lg">
+                <div className="flex flex-wrap gap-2">
+                    {causes.map((causes, index) => (
+                        <span key={index} className="px-3 py-1 bg-gray-700 rounded text-sm text-gray-300">
+                            {causes}
                         </span>
                     ))}
                 </div>
@@ -386,6 +405,20 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                     </div>
                     <p className="text-gray-400">Veja as minhas competências técnicas e experiência</p>
                 </div>
+
+                {/* Causas */}
+                <div
+                    className="bg-gray-800/50 p-4 rounded-lg cursor-pointer hover:bg-gray-700/50 transition-colors"
+                    onClick={() => handleSectionClick('causes')}
+                >
+                    <div className="flex items-center gap-3 mb-2">
+                        <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center">
+                            <FaRegUser size={28} className="text-white" />
+                        </div>
+                        <h3 className="text-xl font-semibold text-gray-200">Causas</h3>
+                    </div>
+                    <p className="text-gray-400">Estas são as causas que me movem e que apoio com dedicação</p>
+                </div>
             </div>
         </div>
     );
@@ -397,6 +430,7 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
             case 'experience': return 'Notas de Experiência';
             case 'courses': return 'Notas de Cursos';
             case 'skills': return 'Notas de Competências';
+            case 'causes': return 'Causes';
             case 'roles': return 'Notas de Funções Extracurriculares';
             case 'activities': return 'Notas de Atividades Extracurriculares';
             case 'competitions': return 'Notas de Competições';
@@ -422,6 +456,7 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                     {activeSection === 'experience' && renderExperience()}
                     {activeSection === 'courses' && renderCourses()}
                     {activeSection === 'skills' && renderSkills()}
+                    {activeSection === 'causes' && renderCauses()}
                     {activeSection === 'roles' && renderExtraCurricularRoles()}
                     {activeSection === 'activities' && renderExtraCurricularActivities()}
                     {activeSection === 'competitions' && renderCompetitions()}
